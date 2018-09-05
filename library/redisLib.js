@@ -4,7 +4,7 @@ const redis = require("redis");
 let client = redis.createClient({
     url: "redis://redis-19135.c9.us-east-1-2.ec2.cloud.redislabs.com:19135",
     no_ready_check: true,
-    auth_pass: "MayurRedis@12"
+    auth_pass: "****"
 });
 
 client.on('connect',() => {
